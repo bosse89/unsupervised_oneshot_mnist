@@ -5,14 +5,14 @@ Tested in Windows 10 and Ubuntu 18.04.2 LTS.
 
 ####################################
 ###########Use example (Ubuntu)#####
-#Create a virual environment
-virtualenv -p /usr/bin/python project1/venvProj1
-#Start your virual environment
-source project1/venvProj1/bin/activate
-#Go in to project folder
-cd project1
-#Get the code in to your project folder.
+#Get the code
 git clone https://github.com/bosse89/unsupervised_oneshot_mnist
+#Create a virual environment
+virtualenv -p `which python` unsupervised_oneshot_mnist/venvProj1
+#Start your virual environment
+source unsupervised_oneshot_mnist/venvProj1/bin/activate
+#Go in to project folder
+cd unsupervised_oneshot_mnist
 #Install required packages
 pip3 install -r requirements.txt
 #Run the main script
