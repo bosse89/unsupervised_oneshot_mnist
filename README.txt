@@ -2,6 +2,7 @@ Unsupervised clustering of mnist data (images of hand written digits) and subseq
 Only 10 labeled data samples are used (one for each label type 0-9) to map each cluster to a label.
 
 Tested in Windows 10 and Ubuntu 18.04.2 LTS.
+Takes around 15-21 minutes to run in CPU-mode on an Intel Core i7 6700 2.6GHz, 8GB RAM with Windows 10 and Ubuntu.
 
 ####################################
 ###########Use example (Ubuntu)#####
