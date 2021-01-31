@@ -27,7 +27,7 @@ Classification: convolutional neural network
 
 Results:
 Clusters have V-measure (homogeneity and completeness) = 0.9-0.95
-Convolutional neural network accuracy on test data: 90-95%
+Convolutional neural network accuracy on test data: 90-97%
 
 Acknolwdgements:
 Code from the following websites were used to inspire and accelerate this code project:
