@@ -4,5 +4,5 @@ matplotlib==3.3.3
 networkx==2.5
 numpy==1.19.5
 python-louvain==0.15
-sklearn==0.0
+scikit-learn==0.24.1
 tensorflow==2.4.1
