@@ -1,7 +1,7 @@
 Unsupervised clustering of mnist data (images of hand written digits) and subsequent training of a convolutional neural network.
 Only 10 labeled data samples are used (one for each label type 0-9) to map each cluster to a label.
 
-Tested in Windows 10 (Python 3.7.8) and Ubuntu 18.04.2 LTS (Python 3.6.7). You may get issues with tensorflow if you are using Python 3.9.
+Tested in Windows 10 (Python 3.7.8) and Ubuntu 18.04.2 LTS (Python 3.6.7). Tensorflow is currently (2021-02-15) only tested in: Python 3.5-3.8 (issues in Python 3.9).
 Takes around 15-21 minutes to run in CPU-mode on an Intel Core i7 6700 2.6GHz, 8GB RAM with Windows 10 and Ubuntu.
 
 ####################################
